@@ -22,6 +22,7 @@
 - [[npm/qs]] — query-string parser · advisory mapped · prototype-pollution and parser-limit bypass history
 - [[npm/semver]] — semver version parser · advisory mapped · ReDoS history
 - [[npm/send]] — static file serving engine · audit ingested · historical traversal / path-disclosure advisories plus verified modern traversal defenses
+- [[npm/ws]] — WebSocket transport library · advisory mapped · long-lived header parsing, message-size, and handshake DoS history plus one older memory-disclosure bug
 
 ## Rust / crates.io (3)
 - [[rust/serde]] — foundational serialization crate · baseline stub · high downstream deserialization surface
